@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f2023;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+
+}
+
+h1{
+    color: #e8eaed;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    border-top: 20px solid #4d6d63;
+    border-bottom: 20px solid #4d6d63;
+    border-left: 20px solid #1f2023;
+    border-right: 20px solid #1f2023;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container__ {
+    background-color: #d7e0de;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.container__:focus-within{
+    background-color: #a6c1b9;
+}
+
+.legend_estilo{
+    color: white;
+    background-color: #4b6a62;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+span{
+    font-size: 18px;
+}
+
+.condiciones__estilo{
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.border__dotted{
+    width: 20%;
+    border-top: 17px #a6c1b9 dotted;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+input[type=text], [type=number], select, [type=email], [type=tel] {
+    width: 50%;
+    height: 30px;
+}
+
+input:focus, textarea:focus{
+    background-color: #4f6862;
+    color: #98cabc;
+}
+
+::placeholder {
+    text-align: right;
+    margin-right: 10px;
+}
+
+textarea{
+    width: 50%;
+    height: 50px;
+}
+
+.container__left{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.p__font-size{
+    font-size: 14px;
+}
+
+.button__center{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    background-color: #2b3d37;
+    color: #98cabc;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;   
+}
+
+button:hover{
+    background-color: #98cabc;
+    color: #2b3d37;
+}
+
+
+

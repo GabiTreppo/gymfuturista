@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Mingzat&family=Prompt:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    background-image: url(../img/maximalfocus-HakTxidk36I-unsplash.jpg);  
+    width: 100vw;
+    background-position: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 22px;  
+    
+}
+
+h1{
+    color: #25d3f6;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    font-size: 200px;
+}
+
+.animate__heartBeat{
+    --animate-duration: 3s;
+}
+
+.container__{
+    width: 30vw;
+    border: 5px solid white;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 10px 5px 5px #fb2668;
+    
+}
+
+.legend_estilo{
+    background-color: #fb2668;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.legend_estilo:hover{
+    background-color: white;
+    color: #fb2668;
+}
+
+
+input[type=text], [type=number], select, [type=email], [type=tel] {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input:focus, textarea:focus{
+    background-color: #fb2668;
+    color: white;
+    font-size: 18px;
+}
+
+::placeholder, select {
+    font-size: 18px;
+}
+
+textarea{
+    width: 80%;
+    height: 200px;
+}
+
+input[type="radio"] + label {
+    color: #ccc;
+    }
+input[type="radio"]:checked + label {
+    color: #fb2668;
+
+}
+input[type="checkbox"] + label {
+    line-height: 3em;
+    color: #ccc;
+}
+
+input[type="checkbox"]:checked + label {
+    color: #fb2668;
+    }
+
+.p__estilo-sedes{
+    margin-top: 30px;
+    color: #25d3f6;
+}
+
+.condiciones__estilo{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button__center{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    background-color: #25d3f6;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px; 
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: white;
+    color: #25d3f6;
+}
